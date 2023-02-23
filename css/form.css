@@ -1,0 +1,38 @@
+.form{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 50px auto;
+    margin-bottom: 10px;
+    border: 2px solid rgb(3, 4, 52);
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.form__labelText{
+    display: inline-block;
+    width: 100%;
+    max-width: 150px;
+}
+
+.form__filds{
+    display: inline-block;
+    width: 100%;
+    max-width: 150px;
+    border: none;
+    background-color: rgba(205, 233, 251, 0.301);
+    border-radius: 20px;
+}
+
+.form__button{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form__button:hover{
+    background-color: rgb(233, 234, 237);
+    outline: none;
+}
