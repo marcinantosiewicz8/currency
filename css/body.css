@@ -1,5 +1,9 @@
 .body{
     background: rgb(245, 241, 241);
+    background-image: url(../image/usd.png) , url(../image/usd.png);
+    background-size: 100px;
+    background-repeat: repeat-y;
+    background-position: top right , top left;
     font-size: 20px;
 }
 
